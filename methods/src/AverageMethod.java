@@ -19,6 +19,8 @@ public class AverageMethod {
 
         System.out.println("The average is: " + answer);
 
+        scanner.close();
+
     }
 
     public static double average(int num1, int num2, int num3) {

@@ -15,6 +15,8 @@ public class DivideMethod {
         double answer = divide(arg1, arg2);
 
         System.out.println(arg1 + " / " + arg2 + " = " + answer);
+
+        scanner.close();
     }
 
     public static double divide(int num1, int num2) {
